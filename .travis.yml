@@ -2,4 +2,4 @@ language: java
 script:
 	- mvn clean
 	- mvn build
-	- mvn test
+	- mvn test -B
