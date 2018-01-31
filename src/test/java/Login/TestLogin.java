@@ -17,4 +17,11 @@ public class TestLogin {
 		System.out.println("I'm invalid user for TestLogin ");
 	}	
 
+	
+	@Test(priority = 3)
+	void click()
+	{
+		System.out.println("Click on login button ");
+	}	
+
 }
